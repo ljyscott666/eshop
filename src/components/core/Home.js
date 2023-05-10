@@ -7,7 +7,7 @@ import Layout from "./Layout"
 function Home() {
   const state = useSelector(state=>state)
 
-    return <Layout>Home{JSON.stringify(state)} </Layout>
+    return <Layout title="首页" subTitle="none">Home{JSON.stringify(state)} </Layout>
 }
 
 export default Home
